@@ -1,0 +1,198 @@
+.header {
+    background-color: #565656;
+    background-repeat: no-repeat;
+    font-family: 'lato';
+}
+.logo {
+    background-color: solid #565656;
+    display: flex;
+    justify-content: left;
+}
+.nav-item {
+    display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #565656;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-family: 'lato';
+  }
+  li a:hover {
+    color: lightgreen;
+  }
+.heroImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/images/DzFC8P6VAAE3d-G.jpeg);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+.heroText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'lato';
+    width: fit-content;   
+}
+#fanClub {
+    background-color: #565656;
+    font-family: lato;
+    padding: 100px;
+}
+#fanImage {
+    display: flex;
+    justify-content: center;
+}
+#fanTitle {
+    text-align: center;
+}
+#fanText {
+    text-align: center;
+}
+.footer {
+    background-color: white;
+    color: white;
+    font-family: lato;
+}
+.navbar-brand {
+    max-width:100%;
+    height:auto;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    }
+h1 {
+    font-size: 100px;
+    color: white;
+    text-align: left;
+    font-family: 'lato';
+}
+h2 {
+    font-size: xx-large;
+    color: white;
+    text-align: left;
+    font-family: 'lato';
+}
+h3 {
+    color: black;
+}
+p {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'lato';
+}
+.pay {
+    float: left;
+    padding: 0 ;
+    display: inline-block;
+}
+    .social {
+    float: right;
+   
+}
+input {
+    float: right;
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.searchbox {
+    position: relative;
+}
+.searchbox .input {
+    width: 275px;
+    border: 0;
+    height: 75px;
+    padding: 0px, 35px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 15px, 1px #b6bbc0;
+    outline: none;
+}
+
+.middle {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  .input{
+    width:60px;
+    height:60px;
+    background:none;
+    border-radius:50px;
+    border:4px solid #fff;
+    box-sizing:border-box;
+    outline:none;
+    transition: width 0.4s ease-in-out,
+      border-radius 0.8s ease-in-out,
+      padding 0.2s;
+    transition-delay:0.4s;
+    color:white;
+    font-size:20px;
+  }
+  .inclicked{
+    width:360px;
+    border-radius:0;
+    padding:0 15px;
+    padding-righ:40px;
+  }
+  .btn{
+    position:absolute;
+    width:60px;
+    height:60px;
+    top:0;
+    right:0;
+    box-sizing:border-box;
+    background:none;
+    border:none;
+    outline:none;
+    cursor:pointer;
+  }
+  .btn::before{
+    content:"";
+    width:4px;
+    height:25px;
+    background:white;
+    position:absolute;
+    transform:rotate(-45deg);
+    bottom:-16px;
+    right:-6px;
+    transition:0.3s;
+  }
+  .close::before,.close::after{
+    content:"";
+    width:4px;
+    height:34px;
+    background:white;
+    position:absolute;
+    bottom:12px;
+    right:28px;
+  }
+  .close::before{
+    transform:rotate(-45deg);
+  }
+  .close::after{
+    transform:rotate(45deg);
+  }
